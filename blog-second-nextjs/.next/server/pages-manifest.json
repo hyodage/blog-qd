@@ -1,0 +1,8 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/artic": "pages/artic.js",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}
