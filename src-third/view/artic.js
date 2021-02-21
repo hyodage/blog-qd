@@ -79,7 +79,7 @@ function Artic() {
                 key='left'
             >
                 <div className="comm-box">
-                    {/* <div className="nav-title">文章目录</div> */}
+                    <div className="nav-title">文章目录</div>
                     <MarkNav
                         className="article-menu"
                         source={data}

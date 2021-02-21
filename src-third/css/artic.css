@@ -34,6 +34,9 @@
     padding: 1.3rem;
     font-size: 1rem;
 }
+.detailed-content h1{
+    border-bottom:1px solid coral;
+}
 pre{
     display: block;
     background-color:#f3f3f3;
@@ -109,4 +112,50 @@ iframe{
 /* 取消卡片的padding */
 .ant-card-body{
     padding: 0px;
+}
+.detailed-content a{
+    color: #bc3f3f;
+}
+/* 表格 */
+.detailed-content table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+ 
+td,th {
+    padding: 0;
+}
+ 
+.detailed-content table caption {
+    color: #000;
+    font: italic 85%/1 arial,sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+ 
+.detailed-content table td,
+.detailed-content table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+ 
+.detailed-content table thead {
+    background-color: #deecf9;
+    color: #4A4848;
+    text-align: left;
+    vertical-align: bottom;
+}
+ 
+.detailed-content table td {
+    background-color: transparent;
+}
+ 
+.detailed-content table tbody>tr:nth-child(even) td {
+    background-color: #f2f2f2;
 }
