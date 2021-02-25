@@ -9,7 +9,6 @@
     "axios": "^0.21.1",
     "cra-template": "1.1.2",
     "highlight.js": "^10.6.0",
-    "markdown-navbar": "^1.4.3",
     "marked": "^2.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.1",
