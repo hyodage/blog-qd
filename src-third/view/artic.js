@@ -12,7 +12,7 @@ function Artic() {
     const getArtic = useGetArtic();
     const [visible, setvisible] = useState(false)
     const { loading, data } = useSelector(state => state.artic);
-    const { navTree, html } = markNav(data)
+    const { mytree, html } = markNav(data)
     const changeDrawer = () => {
         setvisible(!visible)
     }
@@ -73,7 +73,7 @@ function Artic() {
                         <div className="comm-box">
                             <div className="nav-title">文章目录</div>
                             {
-                                getmenu(navTree)
+                                getmenu(mytree)
                             }
                         </div>
                     </Affix>
@@ -91,7 +91,7 @@ function Artic() {
                 <div className="comm-box">
                     <div className="nav-title">文章目录</div>
                     {
-                        getmenu(navTree)
+                        getmenu(mytree)
                     }
                 </div>
             </Drawer>
